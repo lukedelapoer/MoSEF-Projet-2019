@@ -43,12 +43,12 @@ Quel répertoire vous intéresse aujourd'hui ?
 
 8. Faire une *pull request* de la nouvelle branche sur master. Fusionnez la pull request 
 
-8. En local, fusionnez la nouvelle branche à master. 
+9. En local, fusionnez la nouvelle branche à master. 
 
-9. Editez le script pour qu'il filtre sa sortie pour afficher uniquement les fichiers qui contiennent un deuxième pattern fourni en paramètre (de manière insensible à la casse). 
+10. Editez le script pour qu'il filtre sa sortie pour afficher uniquement les fichiers qui contiennent un deuxième pattern fourni en paramètre (de manière insensible à la casse). 
 
 **Exemple :** `./search_fichiers.sh readm?.md bon?our` doit retourner tous les fichiers dont le nom est sous la forme *readm?.md* et qui contiennent une ligne avec *bonjour*, *bOn5ouR*, *bOnJoUR*...
 
-10. Poussez les changements dans votre dépôt distant 
+11. Poussez les changements dans votre dépôt distant 
 
-11. Vous n'avez plus besoin du fichier Consignes.md, supprimez-le en local et poussez les modifications sur Github.
+12. Vous n'avez plus besoin du fichier Consignes.md, supprimez-le en local et poussez les modifications sur Github.
